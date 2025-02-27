@@ -1,23 +1,6 @@
 {
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/"
-    }
-  ],
-  "headers": [
-    {
-      "source": "/(.*)",
-      "headers": [
-        {
-          "key": "Server",
-          "value": "LinkProibidoServer"
-        },
-        {
-          "key": "X-Proxy-Origin",
-          "value": "linkproibido.com"
-        }
-      ]
-    }
+  "version": 2,
+  "builds": [
+    { "src": "next.config.js", "use": "@vercel/next" }
   ]
 }
