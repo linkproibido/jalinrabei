@@ -10,12 +10,12 @@
       "source": "/(.*)",
       "headers": [
         {
-          "key": "X-Proxy-Origin",
-          "value": "linkproibido.com"
-        },
-        {
           "key": "Server",
           "value": "LinkProibidoServer"
+        },
+        {
+          "key": "X-Proxy-Origin",
+          "value": "linkproibido.com"
         }
       ]
     }
